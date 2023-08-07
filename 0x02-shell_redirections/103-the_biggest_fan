@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -t " " -k 7 -n -r | cut -d " " -f 1 | head -n 11
+tail -n +2 | sort -t " " -k 7 -nr | cut -d " " -f 1 | head -n 11
