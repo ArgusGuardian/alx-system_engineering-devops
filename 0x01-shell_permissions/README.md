@@ -10,9 +10,6 @@
     - `=`: Sets specified permissions.
     - `u`, `g`, `o`, `a`: Represents user, group, others, or all.
     - `r`, `w`, `x`: Represents read, write, execute permissions.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b80dcdee-ecae-4a51-8fab-3efdb2b5c7be/Untitled.png)
-    
 
 **2. `sudo`: Execute a Command as Superuser**
 
