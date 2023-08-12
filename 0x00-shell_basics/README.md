@@ -257,6 +257,3 @@ Identify a file using the precompiled magic file (`magic.mgc`):
     file -m /usr/share/misc/magic.mgc somefile.xyz
     
     ```
-    
-9. **Verifying File Integrity:**
-Verify the integrity of a downloaded file by checking its magic type:
