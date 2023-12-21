@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+# print content directory
+curr=$(ls)
+for f in $curr
+do
+    var=$(echo "$f" | cut -d '-' -f2)
+    echo "$var"
+done
