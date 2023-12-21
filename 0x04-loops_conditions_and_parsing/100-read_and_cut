@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+# read every line in /etc/passwd
+while read -r passwd
+do
+    var=$(echo "$passwd" | cut -d ':' -f1,3,6)
+    echo "$var"
+done < "/etc/passwd"
