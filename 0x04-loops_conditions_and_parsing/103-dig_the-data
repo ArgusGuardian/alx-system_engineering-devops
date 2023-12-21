@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# sort addresses and then see the number of occurences and by that sort them in reverse order
+awk '{print $1,$9}' apache-access.log | sort -n | uniq -c | sort -r
