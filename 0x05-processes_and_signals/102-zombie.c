@@ -38,8 +38,6 @@ int main(void)
 		else
 			exit(0);
 	}
-
 	inf();
-
 	return (EXIT_SUCCESS);
 }
