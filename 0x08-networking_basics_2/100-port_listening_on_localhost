@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# Start a server in the localhost and listen at port 98
+nc -l localhost 98
