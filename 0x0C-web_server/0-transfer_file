@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+path="$1"
+ip="$2"
+user="$3"
+ssh_key="$4"
+
+if [ "$#" -lt 3 ]; then
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+elif [ "$#" -lt 4 ]; then
+	scp -o StrictHostKeyChecking=no "$path" "$user@$ip":~/
+else
+	scp -i "$ssh_key" -o StrictHostKeyChecking=no "$user@$ip":~/
+fi
